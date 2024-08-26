@@ -1,0 +1,98 @@
+.nike-card {
+  background: #ff007f;
+  border-radius: 20px;
+  margin: 0 10px 0 10px;
+  text-align: center;
+  color: white;
+  width: 380px;
+  position: relative;
+  transition: transform 1s;
+  top: 50px;
+}
+.bg_red_icon {
+  color: red;
+}
+.nike-card:hover {
+  transform: scale(1.1);
+}
+.nike-img {
+  width: 100%;
+  transition: 0.5s;
+  transition-behavior: normal;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-property: all;
+  transform: rotate(-25deg);
+  padding: 30px;
+  margin-left: -40px;
+}
+.img_div {
+  width: 200px;
+  margin-left: 80px;
+  margin-top: 15px;
+}
+.nike-info h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+.nike-info p {
+  margin: 5px 0;
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+.nike-price-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+.price {
+  background: white;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.rating {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: yellow;
+}
+.nike-actions {
+  display: flex;
+}
+.basket {
+  background: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  margin-left: 10px;
+}
+.like {
+  background: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  margin-left: 10px;
+}
+
+.nike-img:hover {
+  animation: slide 1s linear;
+}
+@keyframes slide {
+  0% {
+    transform: rotate(-0.4);
+  }
+  10% {
+    transform: scale(1);
+  }
+}

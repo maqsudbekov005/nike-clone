@@ -1,0 +1,37 @@
+.footer {
+  background: linear-gradient(to bottom, #4a90e2, #0c0c59);
+  color: white;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.footer_items_row {
+  max-width: 500px;
+  display: flex;
+  align-items: start;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.footer-section {
+  text-align: start;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin-bottom: 5px;
+}
+
+.footer-copyright {
+  text-align: center;
+  width: 100%;
+}
+
+.footer-copyright p {
+  margin: 0;
+  padding: 0;
+}

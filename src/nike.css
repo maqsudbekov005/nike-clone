@@ -1,0 +1,77 @@
+.nike-logo img {
+  width: 100px;
+  height: 40px;
+  margin-left: -40rem;
+}
+.nav {
+  display: flex;
+  gap: 10rem;
+  color: white;
+}
+.nav img {
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+  cursor: pointer;
+}
+.krasofka img {
+  transition: 0.5s;
+  transition-behavior: normal;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-property: all;
+  transform: rotate(-25deg);
+  width: 50%;
+  margin: auto;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  padding: 40px;
+}
+
+.krasofka-vd {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+}
+
+.krasofka-vd video {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.krasofka {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+h1 {
+  color: white;
+}
+.btn {
+  padding: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+}
+.btn:hover {
+  background-color: #ccc;
+}
+
+.krasofka :hover {
+  animation: slide 1s linear;
+}
+
+@keyframes slide {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(-0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

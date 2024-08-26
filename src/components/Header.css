@@ -1,0 +1,25 @@
+.header_component {
+  display: flex;
+  padding: 0 30px;
+  align-items: center;
+  background: transparent;
+  justify-content: space-between;
+}
+.header_component img {
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.header_component .icons-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #fff;
+  font-size: 25px;
+}
+
+.header_component .icons-item .icon_header_component {
+  cursor: pointer;
+}

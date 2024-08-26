@@ -1,0 +1,29 @@
+.social-icons {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+  margin: 10px 150px;
+}
+
+.facebook:hover {
+  color: blue;
+}
+.messenge:hover {
+  color: blueviolet;
+}
+.insta:hover {
+  color: purple;
+}
+.twitter:hover {
+  color: skyblue;
+}
+.youtube:hover {
+  color: red;
+}

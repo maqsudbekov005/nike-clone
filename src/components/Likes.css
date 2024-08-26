@@ -1,0 +1,11 @@
+.likelar {
+  background: #ff007f;
+  border-radius: 20px;
+  height: 400px;
+  text-align: center;
+  color: white;
+  width: 380px;
+  position: relative;
+  transition: transform 1s;
+  top: 50px;
+}
